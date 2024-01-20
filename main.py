@@ -2,9 +2,11 @@
 decount = 0
 count = 0
 ifcount = 0
+compile = "pine.pine"
+#컴파일 할 코드 
 cocount = 0
 ccount = {}
-with open("pine.pine", "+r") as myfile:
+with open(compile, "+r") as myfile:
     code = myfile.read()
 vv = code.split()
 for i in vv:
