@@ -2,7 +2,7 @@
 decount = 0
 count = 0
 ifcount = 0
-compile = "pine.pine"
+compile = "Pine.pine"
 #컴파일 할 코드 
 cocount = 0
 ccount = {}
